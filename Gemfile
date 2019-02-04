@@ -34,6 +34,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'reek'
   gem 'rubocop', require: false
+  gem 'faker', require: false
 end
 
 group :development do
