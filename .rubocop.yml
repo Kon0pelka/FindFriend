@@ -1,0 +1,50 @@
+AllCops:
+  TargetRubyVersion:
+    2.5.1
+  Exclude:
+    - Gemfile.lock
+    - db/schema.rb
+    - db/migrate/*
+    - db/default/*
+    - bin/*
+
+Documentation:
+  Enabled: false
+
+# TODO: fix
+Metrics/LineLength:
+  Max: 150
+
+# TODO: fix
+Metrics/ClassLength:
+  Max: 150
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+# TODO: fix
+Metrics/AbcSize:
+  Enabled: false
+
+# TODO: fix
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+# TODO: fix
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 16
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
