@@ -17,4 +17,5 @@ production:
   <<: *default
   database: find_friends_production
   username: find_friends
+  host: localhost
   password: <%= ENV['FIND_FRIENDS_DATABASE_PASSWORD'] %>
