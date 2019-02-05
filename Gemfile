@@ -34,7 +34,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'reek'
   gem 'rubocop', require: false
-  gem 'faker', require: false
 end
 
 group :development do
@@ -44,6 +43,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'faker', require: false
 gem 'figaro'
 gem 'geocoder'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
