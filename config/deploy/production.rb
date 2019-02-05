@@ -7,7 +7,14 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
+server '127.0.0.1', user: 'find_friend', roles: %w[app db web]
+set :stage, :production
+set :nvm_type, :user # or :system, depends on your nvm setup
+set :nvm_node, 'v8.12.0'
+set :nvm_map_bins, %w[node npm yarn]
+set :rvm_ruby_version, '2.6.0'
 
+ask :branch, 'master'
 
 # role-based syntax
 # ==================
